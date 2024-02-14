@@ -4,6 +4,13 @@ const runner=require("../models/schemamodel")
 
 
 
+router.get("/",(req,res)=>{
+  res.json("Complete REST-API(POSTMAN)")
+})
+
+
+
+
 
 router.get("/runner",async(req,res)=>{
     try{
