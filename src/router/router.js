@@ -3,9 +3,8 @@ const router= new express.Router();
 const runner=require("../models/schemamodel")
 
 
-
 router.get("/",(req,res)=>{
-  res.send(`Complete REST-API(POSTMAN)`)
+  res.send("index.html")
 })
 
 
