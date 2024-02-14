@@ -5,7 +5,7 @@ const runner=require("../models/schemamodel")
 
 
 router.get("/",(req,res)=>{
-  res.json("Complete REST-API(POSTMAN)")
+  res.send(`Complete REST-API(POSTMAN)`)
 })
 
 
