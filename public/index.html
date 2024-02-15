@@ -8,7 +8,7 @@
 <style>
  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
     .request{
-        color:gray;
+        color:green;
      font-size: larger;
      font-weight: 600;
     }
@@ -18,14 +18,30 @@
     .title{
         font-family: "Nunito Sans", sans-serif;
     }
+    .node{
+        color: green;
+    }
+    @media (max-width:768px){
+    .title{
+        font-size: 26px;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .point{
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    }
 </style>
 <body>
     <div style="text-align: center;" class="title">
-        <h1 >Welcome To the complete Rest-Api.</h1>
-        <h2>&#8226;You can get data Using <span class="request">GET</span>  request through the url of webpage in <span class="heading">POSTMAN.</span> </h2>
-        <h2>&#8226;You can enter data Using <span class="request">POST</span> request through the url of webpage in <span class="heading">POSTMAN.</span></h2>
-        <h2>&#8226;You can edit data Using <span class="request">PATCH</span> request through the url of webpage in <span class="heading">POSTMAN.</span></h2>
-        <h2>&#8226;You can delete data Using <span class="request">DELETE</span> request through the url of webpage in <span class="heading">POSTMAN.</span></h2>
+        <h1 class="title">Welcome To the complete Rest-Api.</h1>
+        <h2 class="heading">Api is created using<span class="node"> Nodejs.</span></h2>
+                <h2 class="point">&#8226;You can get data Using <span class="request">GET</span>  request through the url of webpage/runner in <span class="heading">POSTMAN.</span> </h2>
+        <h2 class="point">&#8226;You can enter data Using <span class="request">POST</span> request through the url of webpage in <span class="heading">POSTMAN.</span></h2>
+        <h2 class="point">&#8226;You can edit data Using <span class="request">PATCH</span> request through the url of webpage in <span class="heading">POSTMAN.</span></h2>
+        <h2 class="point">&#8226;You can delete data Using <span class="request">DELETE</span> request through the url of webpage in <span class="heading">POSTMAN.</span></h2>
     </div>
 
 </body>
